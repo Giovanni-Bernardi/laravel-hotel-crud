@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import 'partials/variables';
+@import 'partials/home-employee';
+@import 'partials/new-employee';
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: orangered;
+
+    div#container{
+
+        header, footer{
+            @include flex(row, center, center);
+            margin-top: 50px;
+        }
+        
+        header{
+
+            img {
+                height: 80px;
+                width: auto;
+                display: block;
+            }
+
+            h1{
+                text-transform: uppercase;
+                color: white;
+            }
+        }
+
+        footer{
+           background-color: rgb(51, 51, 51);
+        text-transform: uppercase;
+        color: white;
+        min-height: 150px;
+        }
+    }
+}
