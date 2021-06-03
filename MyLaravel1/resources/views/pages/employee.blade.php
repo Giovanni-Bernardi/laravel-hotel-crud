@@ -6,7 +6,7 @@
 
     <main>
         <h1>
-            dettagli ospite
+            Customer details
         </h1>
         <table>
             <tr>
@@ -48,5 +48,5 @@
             back to home
         </a>
     </main>
-    
+
 @endsection

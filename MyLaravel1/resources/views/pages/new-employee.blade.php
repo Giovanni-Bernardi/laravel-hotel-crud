@@ -6,9 +6,9 @@
 
     <main>
         <h1>
-            add new employee
+            add new customer
         </h1>
-        
+
         <form method="POST" action="{{route('store')}}">
 
             @csrf
@@ -50,5 +50,5 @@
             </div>
         </form>
     </main>
-    
+
 @endsection

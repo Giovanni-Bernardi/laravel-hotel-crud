@@ -5,7 +5,7 @@
 @section('content')
 
     <main>
-        <h1>lista ospiti</h1>
+        <h1>Customer list</h1>
         <table>
             <tr>
                 <th>ID</th>
@@ -37,8 +37,8 @@
             @endforeach
         </table>
         <a id="newEmployee" href="{{route('newEmployee')}}">
-            new employee
+            new customer
         </a>
     </main>
-    
+
 @endsection

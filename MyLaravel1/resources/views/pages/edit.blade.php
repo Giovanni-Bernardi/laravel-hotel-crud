@@ -5,7 +5,7 @@ Update Employee
 @section('content')
 
 <main>
-    <h1>Update Employee</h1>
+    <h1>Update Customer</h1>
     {{-- FORM --}}
     <form method="POST" action="{{route('update', $employee -> id)}}">
 
